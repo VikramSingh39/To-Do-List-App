@@ -8,4 +8,5 @@
 <li> Task well be saved in local storage so don't for refreshing and closing the window 😀 </li>
 
 <h2>Project Preview</h2>
+
 ![project preview](https://github.com/VikramSingh39/To-Do-List-App/blob/main/public/To-Do%20List%20App.png)
