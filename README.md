@@ -7,4 +7,5 @@
 <li> We can cut and delete the task after completing</li>
 <li> Task well be saved in local storage so don't for refreshing and closing the window 😀 </li>
 
-![project preview]()
+<h2>Project Preview</h2>
+![project preview](https://github.com/VikramSingh39/To-Do-List-App/blob/main/public/To-Do%20List%20App.png)
