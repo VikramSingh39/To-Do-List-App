@@ -1,0 +1,110 @@
+*{
+      margin: 0;
+     padding: 0;
+     border: none;
+      box-sizing: border-box;
+}
+body{
+      font-family: "Barlow Semi Condensed", sans-serif;
+      background: linear-gradient(140deg, #205781, #4F959D);
+      padding: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.container{
+      width: 100%;
+      max-width: 400px;
+      background-color: #F6F8D5;
+      min-height: 600px;
+      border-radius: 10px;
+      box-shadow: 5px 2px 5px #4F959D;
+      padding: 1.5rem;
+}
+/* Title */
+.title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1.5rem;
+}
+.title h2{
+      font-size: 2rem;
+      font-weight: 500;
+}
+.title img{
+      width: 45px;
+      margin-left: 10px;
+}
+/* input section */
+.input_bar{
+      background-color: rgb(233, 231, 231);
+      border-radius: 30px;
+      width: 90%;
+      margin-inline: auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+}
+input{
+      padding: 10px;
+      outline: none;
+      width: 70%;
+      border-radius: 30px;
+      background-color: rgb(233, 231, 231);
+      font-size: 1rem;
+      /* margin-block: 5px; */
+} 
+button{
+      background-color: rgb(6, 185, 6);
+      color: white;
+      border: none;
+      outline: none;
+      border-radius: 30px;
+      padding: 0 25px;
+      font-size: 1rem;
+      cursor: pointer;
+}
+/* Goal list  */
+.list{
+margin-top: 2rem;
+}
+ul li{
+      list-style: none;
+      font-size: 1.2rem;
+      padding: 12px 8px 12px 50px;
+      user-select: none;
+      cursor: pointer;
+      position: relative;
+}
+ul li::before{
+      content: '';
+      position: absolute;
+      height: 28px;
+      width: 28px;
+      border-radius: 50%;
+      background-image: url(/public/unchecked.png);
+      background-size: cover;
+      background-position: center;
+      top: 12px;
+      left: 8px;
+}
+li span{
+      position: absolute;
+      right: 10%;
+      top: 0;
+      font-weight: 300;
+      font-size: 2.5rem;
+}
+li span:hover{
+      background-color: rgb(203, 199, 199);
+      border-radius: 10px;
+      padding-inline: 5px;
+}
+ul li.checked{
+color: #555;
+text-decoration: line-through;
+}
+ul li.checked::before{
+      background-image: url(/public/checked.png);
+}
